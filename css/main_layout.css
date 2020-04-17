@@ -1,0 +1,50 @@
+
+@font-face{
+    font-family: ;
+    src: url();
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.h1_header{
+    font-size: 50px;
+    text-align: left;
+}
+.main_header{
+    margin: 50px;
+    text-align: center;
+}
+
+.header_nav {
+    background-color: rgb(50, 50, 50);
+    overflow: hidden;
+}
+
+.header_nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header_nav a:hover{
+    background-color: rgb(240, 240, 240);
+    color:rgb(0, 94, 0);
+}
+
+/* Add a color to the active/current link */
+.header_nav a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.section{
+    margin: 50px;
+    width: 50%;
+}

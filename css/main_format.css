@@ -1,0 +1,82 @@
+
+@font-face{
+    font-family: f_spartan;
+    src: url(font/Spartan/Spartan-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'f_spartan';
+}
+
+.main_header{
+    width: 100%;
+    box-shadow: 1px 1px 7px #000;
+    position:fixed;
+}
+
+.nav_icon{
+    float: left;
+    padding: 4px;
+}
+
+.nav_icon img{
+    float: left;
+    width: 35px;
+}
+
+#f_search{
+    float: left;
+    position: relative;
+    top: 4px;
+    padding-left: 4px;
+    width: 25%;
+}
+
+#f_search input{
+    padding: 10px 8px;
+    width: 88%;
+    align-self: center;
+}
+
+.header_nav {
+    background-color: #505050;
+    overflow: hidden;
+
+}
+
+.header_nav .nav_a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.header_nav .nav_a:hover{
+    transition: all 0.3s linear;
+    background-color: rgb(240, 240, 240);
+    color: #101010;
+    text-decoration: none;
+}
+
+.header_nav .nav_a:active {
+    background-color: #999999;
+    color: white;
+}
+
+#main{
+    padding-top: 10rem;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: 4rem;
+    text-align: center;
+}
