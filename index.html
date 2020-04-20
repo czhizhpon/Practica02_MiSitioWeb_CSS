@@ -13,127 +13,318 @@
 
         <title>CheckG</title>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-
         <meta name="keywords" content="game, pc, specs, gameplays"/>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link href="css/main_format.css" rel="stylesheet">
         <link href="css/index_layout.css" rel="stylesheet">
 
     </head>
     <body>
 
-        <header class="main_header">
-            <nav class="header_nav">
+        <header id="main_header">
+            
+            <div id="logo_container">
 
-                <a href="index.html" class="nav_icon">
+                <a href="index.html" id="img_logo">
                     <img src="images/icons/logo.png" alt="Logo Game Specs"/>
                 </a>
-                
-                <a class="nav_a" href="index.html">Inicio</a>
-                <a class="nav_a" href="site/general/games.html">Juegos</a>
-                <a class="nav_a" href="site/general/news.html">Novedades</a>
-                <a class="nav_a" href="site/general/hardware.html">Hardware</a>
-                <a class="nav_a" href="site/find.html">Descubre</a>
-                    <a class="nav_a" href="site/find/events.html">Eventos</a>
-                    <a class="nav_a" href="site/find/gameplays.html">Gameplays</a>
-                    <a class="nav_a" href="site/find/soundtrack.html">Soundtrack</a>
-                <a class="nav_a" href="site/us/about.html">Sobre Nosotros</a>
-                
+
                 <form id="f_search">  
                     <input type="text" placeholder="Buscar"/>
                 </form>
 
                 <a href="" class="nav_icon">
                     <img src="images/icons/user.png" alt="account logo"/>
+                    <span>Cuenta</span>
+                </a>
+                <a href="" class="nav_icon">
+                    <img src="images/icons/mail.png" alt="feedback logo"/>
+                    <span>Feedback</span>
+                </a>
+                <a href="site/us/about.html" class="nav_icon">
+                    <img src="images/icons/team.png" alt="about logo"/>
+                    <span>About</span>
                 </a>
 
-                
+            </div>
+
+            <nav id="header_nav">
+                <a class="nav_a" href="index.html">Inicio</a>
+                <a class="nav_a" href="site/general/games.html">Juegos</a>
+                <a class="nav_a" href="site/general/news.html">Noticias</a>
+                <a class="nav_a" href="site/general/hardware.html">Hardware</a>
+                <a class="nav_a" href="site/find.html">Descubre</a>
+                    <a class="nav_a" href="site/find/events.html">Eventos</a>
+                    <a class="nav_a" href="site/find/gameplays.html">Gameplays</a>
+                    <a class="nav_a" href="site/find/soundtrack.html">Soundtrack</a>
             </nav>
             
         </header>
+        <!-- Fin Barra Nav-->
 
-        <h1 class="h1_header">Bienvenidos</h1>
 
         <div id="main">
-        <section class="section">
-            <header>
-                <h2>Descubre</h2>
-            </header>
 
-            <article>
-                <h3> <a href="/practica1/site/general/news.html">Novedades</a></h3>
+            <section id="section_welcome">
 
-                <p>Actualmente, la realidad virtual está en auge con el lanzamiento de Half Life Alyx 
-                    y no parece estar desacelerándose. Las historias de hoy están haciendo que el futuro
-                     o la realidad virtual se vean aún más brillantes. Tenemos un nuevo HP Reverb G2, 
-                     seguimiento ocular y un VRMMO VR entrante MMO Ilysia.</p>
-                <blockquote>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZNh1WpdKZJM" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-                </blockquote>
+                <div id="welcome_text">
+                    <header>
+                        <h2>Bienvenidos a Check Games</h2>
+                    </header>
+                    
+                    <p>
+                        Inicia sesión para que te enteres de las últimas noticias.
+                    </p>
+                    <button type="button" class="index_button">Iniciar Sesión</button>
+                    <button type="button" class="index_button">Registrarse</button>
+                    
+                </div>
+                
+                <img src="images/index/img_main.jpg" alt="index main image"/>
 
-            </article>
+            </section>
 
-            <article>
-                <h3><a href="/practica1/site/general/hardware.html">Hardware</a></h3>
+            <!--
+                Geleria de Noticas
+            -->
+            <section id="news">
+                <header>
+                    <h2>Noticias</h2>
+                </header>
+                <div id="news_content">
+                    <article>
+                        <a href="site/general/news.html">
+                            <img src="images/news/news_eye_tracking.jpg" alt="new 1 picture">
+                            <h3>Solución de seguimiento ocular</h3>
+                        </a>
+                    </article>
 
-                <p>
-                    Esta computadora portátil AMD Ryzen 4000 de Asus sale a la venta el 9 de abril, 
-                    y al precio se convertirá en la computadora portátil más barata con una CPU de 
-                    8 núcleos en el mercado. Su combinación de potencia bruta y duración de la 
-                    batería atraerá tanto a jugadores como a empresas. Reserva ahora para estar 
-                    entre los primeros en recibir esta impresionante máquina.
-                </p>
+                    <article>
+                        <a href="site/general/news.html">
+                            <img src="images/news/news_vr_homemade.jpg" alt="new 1 picture">
+                            <h3>Headset VR hecho en casa con un Raspberry Pi</h3>
+                        </a>
+                    </article>
 
-                <a href="site/general/hardware.html"> 
-                    <img src="images/lap_asus_hardware1.jpg" alt="Asus Laptop imagen" width="500" height="430"/>
-                </a>
+                    <article>
+                        <a href="site/general/news.html">
+                            <img src="images/news/vr_ces_2020.jpg" alt="new 1 picture">
+                            <h3>Lo mejor de la realidad virtual en CES 2020</h3>
+                        </a>
+                    </article>
 
-            </article>
-            
-            <aside>
-                <h4>Resident Evil 8, vendrá con modalidad en primera persona para el próximo año</h4>
+                    <article>
+                        <a href="site/general/news.html">
+                            <img src="images/news/news_nin_switch_april_2020.jpg" alt="new 1 picture">
+                            <h3>11 nuevos y emocionantes juegos llegarán a Nintendo Switch en abril</h3>
+                        </a>
+                    </article>
 
-                <p>
-                    Se rumorea que un Resident Evil 8 en primera persona está en camino. 
-                    Esto viene a través del filtrador regular AestheticGamer, también conocido 
-                    como Dusk Golem, que ha estado en lo cierto sobre cosas como Resident Evil 3 Remake.
-                    <a href="https://www.pcgamer.com/resident-evil-8-rumored-for-next-year-with-first-person-view/"
-                    target="_blank">PcGamer.com</a>
-                </p>
+                    <article>
+                        <a href="site/general/news.html">
+                            <img src="images/news/news_nvidia.jpg" alt="new 1 picture">
+                            <h3>Nvidia Gaming Platform: Nvidia lanzará nuevos juegos todos los jueves</h3>
+                        </a>
+                    </article>
 
-            </aside>
+                    <article>
+                        <a href="site/general/news.html">
+                            <img src="images/news/news_bill_depresion.jpg" alt="new 1 picture">
+                            <h3>Con los niños fuera de la escuela y jugando en línea, los padres enfrentan facturas de choque</h3>
+                        </a>
+                    </article>
 
-            <aside>
-                <h4>La última encuesta de hardware revela que alrededor de 1 millón de usuarios de 
-                    Steam poseen un auricular PC VR</h4>
-            </aside>
-            
-            <p>
-                Valve actualizó su encuesta de hardware de Steam con un nuevo conjunto de números para el 
-                mes de marzo, e incluye una contabilidad más precisa de los auriculares VR que en meses 
-                anteriores. Según la actualización, el 1,29 por ciento de los usuarios de Steam posee 
-                algún tipo de auricular VR. <a href="https://www.pcgamer.com/latest-hardware-survey-reveals-around-1-million-steam-users-own-a-pc-vr-headset/"
-                target="_blank">PcGamer.com</a>
-            </p>
-        </section>
+                </div>
+
+                <button type="button" class="index_button">Ver Más</button>
+            </section>
+
+            <!-- Fin Galeria de Noticias-->
+
+            <section id="reviews">
+                <header>
+                    <h2>Opiniones:</h2>
+                </header>
+
+                <div id="reviews_content">
+                    <blockquote>
+                        <div class="stars">
+                            <img src="images/index/users/user_1.png" alt="user picture"/>
+                            <br/>
+                            <span class="s_o">★</span>
+                            <span class="s_o">★</span>
+                            <span class="s_g">★</span>
+                            <span class="s_g">★</span>
+                            <span class="s_g">★</span>
+                        </div>
+
+                        <p>
+                             ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae ex velit. 
+                            Eveniet, expedita similique temporibus fugit, pariatur eos nesciunt voluptates assumenda 
+                            ut a distinctio!
+                        </p>
+                    </blockquote>
+
+                    <blockquote>
+                        <div class="stars">
+                            <img src="images/index/users/user_1.png" alt="user picture"/>
+                            <br/>
+                            <span class="s_o">★</span>
+                            <span class="s_o">★</span>
+                            <span class="s_g">★</span>
+                            <span class="s_g">★</span>
+                            <span class="s_g">★</span>
+                        </div>
+
+                        <p>
+                             ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quam.
+                        </p>
+                    </blockquote>
+
+                    <blockquote>
+                        <div class="stars">
+                            <img src="images/index/users/user_1.png" alt="user picture"/>
+                            <br/>
+                            <span class="s_o">★</span>
+                            <span class="s_o">★</span>
+                            <span class="s_g">★</span>
+                            <span class="s_g">★</span>
+                            <span class="s_g">★</span>
+                        </div>
+
+                        <p>
+                             ipsum dolor sit, amet consectetur adipisicing elit. Ducimus rerum pariatur 
+                            doloribus iste fugiat quos, reprehenderit doloremque quasi quia quod.
+                        </p>
+                    </blockquote>
+
+                    <blockquote>
+                        <div class="stars">
+                            <img src="images/index/users/user_1.png" alt="user picture"/>
+                            <br/>
+                            <span class="s_o">★</span>
+                            <span class="s_o">★</span>
+                            <span class="s_g">★</span>
+                            <span class="s_g">★</span>
+                            <span class="s_g">★</span>
+                        </div>
+
+                        <p>
+                             ipsum dolor sit, amet consectetur adipisicing elit. Accusamus omnis
+                             optio soluta ea voluptatem sed, harum impedit recusandae officiis perspiciatis! 
+                             Quis sunt natus vitae sint ut corporis, maxime ex, odit non aut nam 
+                             sapiente possimus, placeat laudantium! Blanditiis officia ipsam saepe 
+                             laudantium qui. Esse facilis id dolores iure sunt, dolor necessitatibus 
+                             quaerat et perspiciatis repudiandae laboriosam, porro sequi facere mollitia 
+                             aperiam blanditiis eaque, ullam quam vitae. Sed, blanditiis iure nihil 
+                             ratione eum ipsam sunt ullam debitis! Fuga alias consequuntur magni quaerat 
+                             rem ratione earum sunt quod vitae libero asperiores tenetur quos deserunt 
+                             architecto deleniti autem accusamus, natus dignissimos blanditiis a.
+                        </p>
+                    </blockquote>
+
+                </div>
+
+            </section>
         </div>
+
+        <section id="team">
+            <header>
+                <h2>El Equipo</h2>
+            </header>
+            <div id="team_content">
+                <aside>
+                    <img src="images/index/users/user_1.png" alt="User team picture"/>
+
+                    <h3>Eduardo Zhizhpon</h3>
+
+                </aside>
+
+                <aside>
+                    <img src="images/index/users/user_1.png" alt="User team picture"/>
+
+                    <h3>Eduardo Zhizhpon</h3>
+
+                </aside>
+
+            </div>
+        </section>
 
         <footer>
 
-            <span>
-                Cesar Eduardo Zhizhpon Tacuri - Email: <a href="mailto:czhizhpon@est.ups.edu.ec">czhizhpon@est.ups.edu.ec</a>
-                - Telf: <a href="tel:+593939446883">+593 93 944 6883</a>
-            
-                <br/>
-                <strong>
+            <aside class="footer_content">
+                <div class="footer_media"> 
+                    <a href="http://facebook.com" target="_blank">
+                        <img src="images/icons/facebook.png" alt="facebook logo" class="img_social_media"/>
+                    </a>
+                    
+                    <a href="http://twitter.com" target="_blank">
+                        <img src="images/icons/twitter.png" alt="twitter logo" class="img_social_media"/>
+                    </a>
+                    
+                </div>
+                <img src="images/icons/logo.png" alt="Logo" class="footer_logo"/>
+                <ul>
+                    <li>
+                        Cesar Eduardo Zhizhpon Tacuri
+                    </li>
+                    <li>
+                        Email: <a href="mailto:czhizhpon@est.ups.edu.ec" class="contact">czhizhpon@est.ups.edu.ec</a>
+                    </li>
+                    <li>
+                        Telf: <a href="tel:+593939446883" class="contact">+593 93 944 6883</a>
+                    </li>
+                </ul>
 
-                    &copy; Todos los Derechos Reservados
-                </strong>
-            </span>
+                <br/>
+                <p>&copy; Todos los Derechos Reservados</p>
+            </aside>
+
+            <aside class="footer_content">
+                <img src="images/icons/search.png" alt="search logo" class="footer_icon"/>
+                <h4>¿Qué encontrarás?</h4>
+                <ul>
+                    <li>
+                        <a href="site/general/news.html">
+                            Noticias
+                        </a>
+                    </li>
+                    <li>
+                        <a href="site/find.html">
+                            Recomendaciones
+                        </a>
+                    </li>
+                    <li>
+                        <a href="site/general/games.html">
+                            Videojuegos
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <aside class="footer_content">
+                <img src="images/icons/info.png" alt="search logo" class="footer_icon"/>
+                <h4>Ayuda</h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Asistencia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Recomendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Más ayuda
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
         </footer>
     </body>
 </html>

@@ -13,26 +13,53 @@
         <title>Novedades</title>
         <meta charset="utf-8" />
         <meta name="keywords" content="games, pc, news"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="../../css/main_format.css" rel="stylesheet">
+
     </head>
     <body>
 
-        <header>
-            <a href="../../index.html">
-                <img src="../../images/logo.png" alt="Logo CheckG" width="130" height="90"/>
-            </a>
+        <header id="main_header">
+            
+            <div id="logo_container">
 
-            <nav>
-                <a href="/practica1/index.html">Inicio</a>
-                <a href="/practica1/site/general/games.html">Juegos</a>
-                <a href="/practica1/site/general/news.html">Novedades</a>
-                <a href="/practica1/site/general/hardware.html">Hardware</a>
-                <a href="/practica1/site/find.html">Descubre</a>
-                    <a href="/practica1/site/find/events.html">Eventos</a>
-                    <a href="/practica1/site/find/gameplays.html">Gameplays</a>
-                    <a href="/practica1/site/find/soundtrack.html">Soundtrack</a>
-                <a href="/practica1/site/us/about.html">Sobre Nosotros</a>
+                <a href="../../index.html" id="img_logo">
+                    <img src="../../images/icons/logo.png" alt="Logo Game Specs"/>
+                </a>
+
+                <form id="f_search">  
+                    <input type="text" placeholder="Buscar"/>
+                </form>
+
+                <a href="" class="nav_icon">
+                    <img src="../../images/icons/user.png" alt="account logo"/>
+                    <span>Cuenta</span>
+                </a>
+                <a href="" class="nav_icon">
+                    <img src="../../images/icons/mail.png" alt="feedback logo"/>
+                    <span>Feedback</span>
+                </a>
+                <a href="../us/about.html" class="nav_icon">
+                    <img src="../../images/icons/team.png" alt="about logo"/>
+                    <span>About</span>
+                </a>
+
+            </div>
+
+            <nav id="header_nav">
+                <a class="nav_a" href="../../index.html">Inicio</a>
+                <a class="nav_a" href="../general/games.html">Juegos</a>
+                <a class="nav_a" href="../general/news.html">Noticias</a>
+                <a class="nav_a" href="../general/hardware.html">Hardware</a>
+                <a class="nav_a" href="../find.html">Descubre</a>
+                    <a class="nav_a" href="../find/events.html">Eventos</a>
+                    <a class="nav_a" href="../find/gameplays.html">Gameplays</a>
+                    <a class="nav_a" href="../find/soundtrack.html">Soundtrack</a>
             </nav>
+            
         </header>
+        <!-- Fin Barra Nav-->
 
         <h1>Novedades</h1>
         
@@ -232,8 +259,77 @@
 
         <footer>
 
-            Cesar Eduardo Zhizhpon Tacuri - Email: <a href="mailto:czhizhpon@est.ups.edu.ec">czhizhpon@est.ups.edu.ec</a>
-            - Telf: <a href="tel:+593939446883">+593 93 944 6883</a> &copy; Todos los Derechos Reservados
+            <aside class="footer_content">
+                <div class="footer_media"> 
+                    <a href="http://facebook.com" target="_blank">
+                        <img src="../../images/icons/facebook.png" alt="facebook logo" class="img_social_media"/>
+                    </a>
+                    
+                    <a href="http://twitter.com" target="_blank">
+                        <img src="../../images/icons/twitter.png" alt="twitter logo" class="img_social_media"/>
+                    </a>
+                    
+                </div>
+                <img src="../../images/icons/logo.png" alt="Logo" class="footer_logo"/>
+                <ul>
+                    <li>
+                        Cesar Eduardo Zhizhpon Tacuri
+                    </li>
+                    <li>
+                        Email: <a href="mailto:czhizhpon@est.ups.edu.ec" class="contact">czhizhpon@est.ups.edu.ec</a>
+                    </li>
+                    <li>
+                        Telf: <a href="tel:+593939446883" class="contact">+593 93 944 6883</a>
+                    </li>
+                </ul>
+
+                <br/>
+                <p>&copy; Todos los Derechos Reservados</p>
+            </aside>
+
+            <aside class="footer_content">
+                <img src="../../images/icons/search.png" alt="search logo" class="footer_icon"/>
+                <h4>¿Qué encontrarás?</h4>
+                <ul>
+                    <li>
+                        <a href="../general/news.html">
+                            Noticias
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../find.html">
+                            Recomendaciones
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../general/games.html">
+                            Videojuegos
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <aside class="footer_content">
+                <img src="../../images/icons/info.png" alt="search logo" class="footer_icon"/>
+                <h4>Ayuda</h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Asistencia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Recomendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Más ayuda
+                        </a>
+                    </li>
+                </ul>
+            </aside>
 
         </footer>
     </body>
