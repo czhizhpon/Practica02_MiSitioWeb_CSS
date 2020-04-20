@@ -18,6 +18,8 @@ body{
     background-color: #3D7366;
     box-shadow: 0px 0px 4px #000;
     position:fixed;
+    overflow: hidden;
+    z-index: 1;
 }
 
 /*div: #logo_container*/
@@ -169,3 +171,10 @@ footer{
 }
 
 /* FIN FOOTER*/
+
+/*Espacio para comenzar con el contenido principal*/
+body .main_separator{
+    clear: both;
+    padding-top: 15rem;
+    position: relative;
+}

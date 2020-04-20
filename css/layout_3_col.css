@@ -1,0 +1,166 @@
+.main_separator{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5em;
+    line-height: 0.6cm;
+}
+
+body h1{
+    margin: 10px 5rem 10px;
+    color: #3D7366;
+}
+
+/* Columna 1 - nav*/
+#col_1{
+    width: 15%;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+#col_1 h4{
+    padding: 10px 2px;
+    margin: 5px;
+}
+
+
+#col_1 nav ul{
+    list-style-type: square;
+    color: #3D7366;
+    list-style-position: inside;
+    padding: 5px 20px;
+}
+
+#col_1 nav ul a{
+    color: #3D7366;
+}
+
+/*Fin Columna 1 - nav*/
+
+/*Columna 2 - main*/
+#col_2{
+    width: 50%;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+#col_2 h2{
+    box-shadow: 0px 0px 2px #000;
+    padding: 10px 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+#col_2 section{
+    padding: 10px;
+    margin: 20px 10px 80px 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #3D7366;
+}
+
+#col_2 section article h3{
+    padding: 10px 5px;
+    margin: 10px;
+}
+
+#col_2 section article p{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+
+#col_2 article{
+
+    border: #3D736633 solid 2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#col_2 article img{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#col_2 article ul{
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 5px 20px;
+    
+    text-align: left;
+}
+
+/*iframe youtube*/
+#col_2 blockquote{
+    color: #000;
+    padding: 10px 20px;
+    margin: 20px 5px;
+    border: 2px solid #3D7366;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    
+}
+
+#col_2 blockquote h4{
+    padding: 10px 5px;
+    margin: 10px;
+}
+
+#col_2 blockquote .iframe_content{
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    padding-bottom: 39.382%;
+    box-shadow: #3D7366 1px 1px 4px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#col_2 blockquote .iframe_content iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 10px;
+}
+/*FIN Columna 2 - main*/
+
+
+/*Columna 3 - asides*/
+#col_3{
+    width: 25%;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+#col_3 aside{
+    padding: 10px;
+    margin: 10px;
+    border: #3D736633 solid 2px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#col_3 aside h4{
+    padding: 10px 5px;
+    color: #000;
+    background-color: #BF8D5265;
+}
+
+#col_3 aside p{
+    text-align: justify;
+    margin: 10px 5px;
+}
+
+#col_3 aside a{
+    text-decoration-color: #3D7366;
+    color: #000;
+}
+/* FIN Columna 3 - asides*/

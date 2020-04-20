@@ -16,6 +16,7 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link href="../../css/main_format.css" rel="stylesheet">
+        <link href="../../css/layout_3_col.css" rel="stylesheet">
 
     </head>
     <body>
@@ -61,202 +62,263 @@
         </header>
         <!-- Fin Barra Nav-->
 
-        <h1>Novedades</h1>
+        <div class="main_separator">
+
+            <!--Columna 1-->
+            <aside id="col_1">
+                <nav class="nav_content">
+                    <h4>Contenido:</h4>
         
-        <section>
-            <h2>Videos</h2>
-
-            <article>
-                <h3>Realidad Virtual</h3>
-                <blockquote>
-                    <h4>Solución de seguimiento ocular</h4>
-                    
-                    <p>
-                        Actualmente, la realidad virtual está en auge con el lanzamiento de Half 
-                        Life Alyx y no parece estar desacelerándose. Las historias de hoy están 
-                        haciendo que el futuro o la realidad virtual se vean aún más brillantes. 
-                        Tenemos un nuevo HP Reverb G2, seguimiento ocular y un VRMMO VR entrante 
-                        MMO Ilysia
-                    </p>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZNh1WpdKZJM" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-                </blockquote>
-
-                <blockquote>
-                    <h4>Headset VR hecho en casa con un Raspberry Pi</h4>
-
-                    <p>
-                        Esta es una construcción que hice usando una Raspberry Pi, una cámara IR y un 
-                        HMD (pantalla montada en la cabeza) compatible con HDMI. Toda la construcción 
-                        está conectada al auricular, lo que significa que no tengo cables desordenados 
-                        que se interponen constantemente en mi camino, pero puede volverse un poco 
-                        pesado después de un par de horas. <a href="https://www.reddit.com/r/cyberpunkdiy/comments/fmpszx/diy_vrar_headset_pi_goggles/"
-                        target="_blank" > reddit.com </a>
-                    </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fcDgA6b7dgk" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-                </blockquote>
-
-                <blockquote>
-                    <h4>Lo mejor de la realidad virtual en CES 2020</h4>
-
-                    <p>
-                        Los mejores avances y novedades sobre la realidad virtual, presentado en 
-                        el CES 2020.
-                    </p>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lIiZg3aszGk" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-
-                </blockquote>
-            </article>
-
-            <article>
-                <h3>Nuevos Lanzamientos de Juegos</h3>
-                <blockquote>
-                    <h4>11 nuevos y emocionantes juegos llegarán a Nintendo Switch en abril</h4>
-                    <p>
-                        Luego de juegos como Animal Crossing: New Horizons, Pokémon Mystery Dungeon, DOOM 64. 
-                        Saint's Row IV: Relected, el mes de abril parece ser mucho más tranquilo. 
-                        Probablemente lo más destacado para la mayoría en esta lista será la nueva versión 
-                        de Trials of Mana. Incluso puede descargar una demostración del juego en este 
-                        momento y transferir sus datos guardados a la versión completa cuando llegue el 
-                        día 24.
-                    </p>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-3NYB6NCWbk" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-                </blockquote>
-            </article>
+                    <ul>
+                        <li>
+                            <a href="#videos">Videos </a>
+                        </li>
+                        <li>
+                            <a href="#posts">Posts</a>
+                        </li>
+                    </ul>
         
-        </section>
+                </nav>
+            </aside>
+            
+            <!-- FIN Columna 1-->
 
-        <section>
-            <h2>Posts</h2>
+            <!--Columna 2-->
 
-            <article>
-                <h3>Nvidia Gaming Platform: Nvidia lanzará nuevos juegos todos los 
-                    jueves</h3>
+            <section id="col_2">
+                <h1>Noticias</h1>
+                <section>
+                    <h2 id="videos">Videos</h2>
 
-                <p>
-                    El fabricante de chips gráficos Nvidia anunció el lanzamiento de nuevos 
-                    juegos todos los jueves. Nvidia está haciendo su cartera de juegos después
-                    de perder varios de sus títulos de otras plataformas de juegos. Ahora la
-                    compañía lanzará juegos todos los jueves en su propia plataforma de juegos.
-                </p>
+                    <article>
+                        <h3>Realidad Virtual</h3>
+                        <blockquote>
+                            <h4>Solución de seguimiento ocular</h4>
+                            
+                            <p>
+                                Actualmente, la realidad virtual está en auge con el lanzamiento de Half 
+                                Life Alyx y no parece estar desacelerándose. Las historias de hoy están 
+                                haciendo que el futuro o la realidad virtual se vean aún más brillantes. 
+                                Tenemos un nuevo HP Reverb G2, seguimiento ocular y un VRMMO VR entrante 
+                                MMO Ilysia
+                            </p>
+                            <div class="iframe_content">
+                                <iframe src="https://www.youtube.com/embed/ZNh1WpdKZJM" 
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                            </div>
+                        </blockquote>
 
-                <img src="../../images/nvidia_news.jpg" alt="Imagen Nvidia Now" width="600" height="400">
+                        <blockquote>
+                            <h4>Headset VR hecho en casa con un Raspberry Pi</h4>
 
-                <p>
-                    En este sentido, la compañía anunció que comenzará a lanzar nuevos juegos 
-                    para su servicio de juegos en la nube GeForce NOW. La compañía tomó la 
-                    decisión después de que varias de las principales compañías de juegos 
-                    eliminaron los juegos de Nvidia de su plataforma debido a problemas de 
-                    licencia.
-                </p>
-                <p>
-                    Las compañías de publicación de juegos como Activision Blizzard, Bethesda 
-                    y Take-Two eliminaron los juegos de NVIDIA cuando Nvidia comenzó a cobrar 
-                    el mes pasado.
-                </p>
-                <p>
-                    Esto llevó a Novidia a lanzar nuevos juegos en su plataforma de juegos. 
-                    A partir de ahora, Nvidia comenzará a lanzar nuevos juegos todos los 
-                    jueves. Es una buena noticia para los amantes de los juegos desarrollados 
-                    por Nvidia.
-                </p>
-                <p>
-                    La plataforma de juegos GeForce NOW le permite a alguien jugar un juego en 
-                    su PC independientemente de la energía o la tarjeta gráfica en su máquina.
-                     Puedes jugar juegos en tu PC incluso si no tienes una tarjeta gráfica.
-                      Esto es bueno para las personas que no tienen computadoras potentes. 
-                      Ahora puedes jugar juegos de alta calidad incluso si no tienes una 
-                      buena máquina.
-                </p>
-                <p>
-                    Este servicio de Nvidia era de uso gratuito, pero recientemente comenzó a 
-                    cobrar por el servicio premium. Debido a esto, varias plataformas de juego 
-                    eliminaron los juegos de Nvidia de su plataforma.
-                </p>
-            </article>
+                            <p>
+                                Esta es una construcción que hice usando una Raspberry Pi, una cámara IR y un 
+                                HMD (pantalla montada en la cabeza) compatible con HDMI. Toda la construcción 
+                                está conectada al auricular, lo que significa que no tengo cables desordenados 
+                                que se interponen constantemente en mi camino, pero puede volverse un poco 
+                                pesado después de un par de horas. <a href="https://www.reddit.com/r/cyberpunkdiy/comments/fmpszx/diy_vrar_headset_pi_goggles/"
+                                target="_blank" > reddit.com </a>
+                            </p>
+                            <div class="iframe_content">
+                                <iframe src="https://www.youtube.com/embed/fcDgA6b7dgk" 
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                            </div>
+                        </blockquote>
 
-            <article>
-                <h3>Con los niños fuera de la escuela y jugando en línea, los padres 
-                    enfrentan facturas de choque</h3>
+                        <blockquote>
+                            <h4>Lo mejor de la realidad virtual en CES 2020</h4>
 
-                <p>
-                    Con todos encerrados, los niños pueden acumular enormes costos para 
-                    padres desprevenidos con la explosión de compras en el juego
-                </p>
-                <p>
-                    Las discusiones entre padres e hijos sobre el tiempo frente a la pantalla 
-                    y los juegos en línea aumentarán con las escuelas del Reino Unido cerradas 
-                    en el futuro previsible.
-                </p>
-                <p>
-                    La preocupación ya crecía entre las organizaciones benéficas de padres e 
-                    hijos sobre la creciente monetización de las computadoras, consolas y 
-                    videojuegos populares. Casi la mitad de los padres de niños de 12 a 15 
-                    años que juegan juegos en línea, como Fortnite, Fifa y Minecraft, 
-                    están preocupados por la presión sobre los niños para realizar compras 
-                    en el juego (en comparación con cuatro de cada 10 padres hace un año). 
-                    Esto es según el informe de uso y actitud de los medios de comunicación 
-                    de adultos de Ofcom el mes pasado.
-                </p>
-                <p>
-                    Ha habido una explosión de compras en el juego en los últimos años. 
-                    El mercado de juegos en línea, que vale alrededor de £ 6 mil millones 
-                    en el Reino Unido, se centra en los juegos que los jugadores descargan, 
-                    lo que significa que el software se puede actualizar en cualquier 
-                    momento, y se puede agregar nuevo contenido durante el juego, a un 
-                    costo adicional (conocido como "micro-transacciones" ) Los juegos y 
-                    las aplicaciones están vinculados a la cuenta bancaria del cliente 
-                    (padre). Incluso las aplicaciones supuestamente "gratuitas" y los 
-                    juegos descargados tienen incentivos para que los jugadores realicen 
-                    compras en el juego.
-                </p>
-                <p>
-                    Pero el peligro es que los niños pueden pagar fácilmente una gran 
-                    factura en la tarjeta de débito o crédito de sus padres, en algunos 
-                    casos sin su conocimiento. Puede ser difícil, si no imposible, 
-                    reclamar el dinero en efectivo y no hay un árbitro o regulador 
-                    para las quejas.
-                </p>
-                <h4>Cómo mantenerse a salvo</h4>
-                <ul>
-                    <li>Hable con sus hijos sobre el juego seguro y sensato y el uso de Internet.</li>
-                    <li>Verifique la calificación de edad de un juego, investigue cómo funciona, 
-                        el contenido y el potencial de gasto en el juego antes de descargarlo.
-                        
-                    <li>Establecer límites claros en el tiempo de la pantalla y explicar las razones. 
-                    Ayude a los niños a aprender cómo protegerse. Recuérdeles que no compartan 
-                    información personal y mantengan "amigos de juegos" solo en el juego y que
-                    no lo agreguen a las redes sociales.</li>
-                        
-                    <li>No divulgue códigos de acceso o contraseñas a los niños si están usando 
-                    sus dispositivos, como su teléfono o tableta.</li>
-                        
-                    <li>Configure los controles parentales máximos en su teléfono, tabletas y 
-                        consolas de juegos. La información debe estar disponible en línea y 
-                        desde su proveedor de teléfono, tableta o consola. Por ejemplo, Apple
-                         ofrece sus herramientas "Compartir en familia" y "Preguntar para 
-                         comprar", lo que significa que los padres reciben una alerta si un 
-                         niño pide hacer una compra. Active "Tiempo de pantalla" en la 
-                         configuración para deshabilitar las compras en la aplicación. 
-                         Para establecer la configuración familiar en una Xbox, deberá 
-                         abrir una cuenta secundaria y vincularla a la cuenta de Microsoft 
-                         de los padres. Luego tendrán funciones para controlar las compras 
-                         (Preguntar a un padre), límites de tiempo de pantalla y filtros 
-                         de contenido.</li>
-                </ul>
-            </article>
-        </section>
+                            <p>
+                                Los mejores avances y novedades sobre la realidad virtual, presentado en 
+                                el CES 2020.
+                            </p>
+                            <div class="iframe_content">
+                                <iframe src="https://www.youtube.com/embed/lIiZg3aszGk" 
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            </div>
 
+                        </blockquote>
+                    </article>
+
+                    <article>
+                        <h3>Nuevos Lanzamientos de Juegos</h3>
+                        <blockquote>
+                            <h4>11 nuevos y emocionantes juegos llegarán a Nintendo Switch en abril</h4>
+                            <p>
+                                Luego de juegos como Animal Crossing: New Horizons, Pokémon Mystery Dungeon, DOOM 64. 
+                                Saint's Row IV: Relected, el mes de abril parece ser mucho más tranquilo. 
+                                Probablemente lo más destacado para la mayoría en esta lista será la nueva versión 
+                                de Trials of Mana. Incluso puede descargar una demostración del juego en este 
+                                momento y transferir sus datos guardados a la versión completa cuando llegue el 
+                                día 24.
+                            </p>
+                            <div class="iframe_content">
+                                <iframe src="https://www.youtube.com/embed/-3NYB6NCWbk" 
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                            </div>
+                        </blockquote>
+                    </article>
+            
+                </section>
+
+                <section> 
+                    <h2 id="posts">Posts</h2>
+
+                    <article>
+                        <h3>Nvidia Gaming Platform: Nvidia lanzará nuevos juegos todos los 
+                            jueves</h3>
+
+                        <p>
+                            El fabricante de chips gráficos Nvidia anunció el lanzamiento de nuevos 
+                            juegos todos los jueves. Nvidia está haciendo su cartera de juegos después
+                            de perder varios de sus títulos de otras plataformas de juegos. Ahora la
+                            compañía lanzará juegos todos los jueves en su propia plataforma de juegos.
+                        </p>
+
+                        <img src="../../images/nvidia_news.jpg" alt="Imagen Nvidia Now">
+
+                        <p>
+                            En este sentido, la compañía anunció que comenzará a lanzar nuevos juegos 
+                            para su servicio de juegos en la nube GeForce NOW. La compañía tomó la 
+                            decisión después de que varias de las principales compañías de juegos 
+                            eliminaron los juegos de Nvidia de su plataforma debido a problemas de 
+                            licencia.
+                        </p>
+                        <p>
+                            Las compañías de publicación de juegos como Activision Blizzard, Bethesda 
+                            y Take-Two eliminaron los juegos de NVIDIA cuando Nvidia comenzó a cobrar 
+                            el mes pasado.
+                        </p>
+                        <p>
+                            Esto llevó a Novidia a lanzar nuevos juegos en su plataforma de juegos. 
+                            A partir de ahora, Nvidia comenzará a lanzar nuevos juegos todos los 
+                            jueves. Es una buena noticia para los amantes de los juegos desarrollados 
+                            por Nvidia.
+                        </p>
+                        <p>
+                            La plataforma de juegos GeForce NOW le permite a alguien jugar un juego en 
+                            su PC independientemente de la energía o la tarjeta gráfica en su máquina.
+                            Puedes jugar juegos en tu PC incluso si no tienes una tarjeta gráfica.
+                            Esto es bueno para las personas que no tienen computadoras potentes. 
+                            Ahora puedes jugar juegos de alta calidad incluso si no tienes una 
+                            buena máquina.
+                        </p>
+                        <p>
+                            Este servicio de Nvidia era de uso gratuito, pero recientemente comenzó a 
+                            cobrar por el servicio premium. Debido a esto, varias plataformas de juego 
+                            eliminaron los juegos de Nvidia de su plataforma.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h3>Con los niños fuera de la escuela y jugando en línea, los padres 
+                            enfrentan facturas de choque</h3>
+
+                        <p>
+                            Con todos encerrados, los niños pueden acumular enormes costos para 
+                            padres desprevenidos con la explosión de compras en el juego
+                        </p>
+
+                        <img src="../../images/news/news_bill_depresion.jpg" alt="Imagen Nvidia Now">
+                        <p>
+                            Las discusiones entre padres e hijos sobre el tiempo frente a la pantalla 
+                            y los juegos en línea aumentarán con las escuelas del Reino Unido cerradas 
+                            en el futuro previsible.
+                        </p>
+                        <p>
+                            La preocupación ya crecía entre las organizaciones benéficas de padres e 
+                            hijos sobre la creciente monetización de las computadoras, consolas y 
+                            videojuegos populares. Casi la mitad de los padres de niños de 12 a 15 
+                            años que juegan juegos en línea, como Fortnite, Fifa y Minecraft, 
+                            están preocupados por la presión sobre los niños para realizar compras 
+                            en el juego (en comparación con cuatro de cada 10 padres hace un año). 
+                            Esto es según el informe de uso y actitud de los medios de comunicación 
+                            de adultos de Ofcom el mes pasado.
+                        </p>
+                        <p>
+                            Ha habido una explosión de compras en el juego en los últimos años. 
+                            El mercado de juegos en línea, que vale alrededor de £ 6 mil millones 
+                            en el Reino Unido, se centra en los juegos que los jugadores descargan, 
+                            lo que significa que el software se puede actualizar en cualquier 
+                            momento, y se puede agregar nuevo contenido durante el juego, a un 
+                            costo adicional (conocido como "micro-transacciones" ) Los juegos y 
+                            las aplicaciones están vinculados a la cuenta bancaria del cliente 
+                            (padre). Incluso las aplicaciones supuestamente "gratuitas" y los 
+                            juegos descargados tienen incentivos para que los jugadores realicen 
+                            compras en el juego.
+                        </p>
+                        <p>
+                            Pero el peligro es que los niños pueden pagar fácilmente una gran 
+                            factura en la tarjeta de débito o crédito de sus padres, en algunos 
+                            casos sin su conocimiento. Puede ser difícil, si no imposible, 
+                            reclamar el dinero en efectivo y no hay un árbitro o regulador 
+                            para las quejas.
+                        </p>
+                        <h4>Cómo mantenerse a salvo</h4>
+                        <ul>
+                            <li>Hable con sus hijos sobre el juego seguro y sensato y el uso de Internet.</li>
+                            <li>Verifique la calificación de edad de un juego, investigue cómo funciona, 
+                                el contenido y el potencial de gasto en el juego antes de descargarlo.
+                                
+                            <li>Establecer límites claros en el tiempo de la pantalla y explicar las razones. 
+                            Ayude a los niños a aprender cómo protegerse. Recuérdeles que no compartan 
+                            información personal y mantengan "amigos de juegos" solo en el juego y que
+                            no lo agreguen a las redes sociales.</li>
+                                
+                            <li>No divulgue códigos de acceso o contraseñas a los niños si están usando 
+                            sus dispositivos, como su teléfono o tableta.</li>
+                                
+                            <li>Configure los controles parentales máximos en su teléfono, tabletas y 
+                                consolas de juegos. La información debe estar disponible en línea y 
+                                desde su proveedor de teléfono, tableta o consola. Por ejemplo, Apple
+                                ofrece sus herramientas "Compartir en familia" y "Preguntar para 
+                                comprar", lo que significa que los padres reciben una alerta si un 
+                                niño pide hacer una compra. Active "Tiempo de pantalla" en la 
+                                configuración para deshabilitar las compras en la aplicación. 
+                                Para establecer la configuración familiar en una Xbox, deberá 
+                                abrir una cuenta secundaria y vincularla a la cuenta de Microsoft 
+                                de los padres. Luego tendrán funciones para controlar las compras 
+                                (Preguntar a un padre), límites de tiempo de pantalla y filtros 
+                                de contenido.</li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+
+            <aside id="col_3">
+
+                <aside>
+                    <h4>Resident Evil 8, vendrá con modalidad en primera persona para el próximo año</h4>
+
+                    <p>
+                        Se rumorea que un Resident Evil 8 en primera persona está en camino. 
+                        Esto viene a través del filtrador regular AestheticGamer, también conocido 
+                        como Dusk Golem, que ha estado en lo cierto sobre cosas como Resident Evil 3 Remake.
+                        <a href="https://www.pcgamer.com/resident-evil-8-rumored-for-next-year-with-first-person-view/"
+                        target="_blank">PcGamer.com</a>
+                    </p>
+
+                </aside>
+
+                <aside>
+                    <h4>La última encuesta de hardware revela que alrededor de 1 millón de usuarios de 
+                        Steam poseen un auricular PC VR</h4>
+
+                    <p>
+                        Valve actualizó su encuesta de hardware de Steam con un nuevo conjunto de números para el 
+                        mes de marzo, e incluye una contabilidad más precisa de los auriculares VR que en meses 
+                        anteriores. Según la actualización, el 1,29 por ciento de los usuarios de Steam posee 
+                        algún tipo de auricular VR. <a href="https://www.pcgamer.com/latest-hardware-survey-reveals-around-1-million-steam-users-own-a-pc-vr-headset/"
+                        target="_blank">PcGamer.com</a>
+                    </p>
+                </aside>
+                
+            </aside>
+        </div>
         <footer>
 
             <aside class="footer_content">
