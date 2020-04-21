@@ -15,7 +15,10 @@
         <meta name="keywords" content="game, pc, specs, gameplays, soundtrack"/>
     
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link href="../css/main_format.css" rel="stylesheet">
+        <link href="../css/main_format.css" rel="stylesheet"/>
+        <link href="../css/layout_main_section.css" rel="stylesheet"/>
+        <link href="../css/layout_table.css" rel="stylesheet"/>
+        <link href="../css/layout_iframe.css" rel="stylesheet"/>
 
     </head>
     <body>
@@ -40,7 +43,7 @@
                     <img src="../images/icons/mail.png" alt="feedback logo"/>
                     <span>Feedback</span>
                 </a>
-                <a href="../us/about.html" class="nav_icon">
+                <a href="us/about.html" class="nav_icon">
                     <img src="../images/icons/team.png" alt="about logo"/>
                     <span>About</span>
                 </a>
@@ -60,191 +63,196 @@
             
         </header>
         <!-- Fin Barra Nav-->
-        
-        <h1>Descubre</h1>
-        <section>
-            <h2>Juegos Recomendados</h2>
+        <div class="main_1_col_separator">
+            <section id="c_main">
+                <h1>Descubre</h1>
+                <section>
+                    <h2>Juegos Recomendados</h2>
 
-            <article>
-                <h3>Call of Duty: Modern Warfare</h3>
+                    <article>
+                        <h3>Call of Duty: Modern Warfare</h3>
 
-                <img src="../images/moder_warfare_find.jpg" width="450" height="300" alt="COD Modern Warfare">
+                        <img src="../images/moder_warfare_find.jpg" alt="COD Modern Warfare">
 
-                <p>
-                    Es una de las sagas de shooters más populares de la historia y no 
-                    podía faltar en nuestra lista, especialmente ahora cuando se ha 
-                    lanzado la última versión. La gente de Infinity Ward ha borrado 
-                    el "4" del nombre para ofrecer este completo remake que aspira a 
-                    juego del año, con un modo campaña imprescindible y un modo 
-                    multijugador ideal para la diversión en compañía. Una vuelta 
-                    a los orígenes que espera terminar con la sangría de jugadores
-                     de la franquicia en los últimos tiempos.
-                </p>
+                        <p>
+                            Es una de las sagas de shooters más populares de la historia y no 
+                            podía faltar en nuestra lista, especialmente ahora cuando se ha 
+                            lanzado la última versión. La gente de Infinity Ward ha borrado 
+                            el "4" del nombre para ofrecer este completo remake que aspira a 
+                            juego del año, con un modo campaña imprescindible y un modo 
+                            multijugador ideal para la diversión en compañía. Una vuelta 
+                            a los orígenes que espera terminar con la sangría de jugadores
+                            de la franquicia en los últimos tiempos.
+                        </p>
 
-                <h4>Trailer</h4>
+                        <h4>Trailer</h4>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/9qzjTk5lTck"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
+                        <div class="iframe_content">
+                            <iframe src="https://www.youtube.com/embed/9qzjTk5lTck"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
 
-                <h4>Requerimientos</h4>
+                        <h4>Requerimientos</h4>
+                        <div class="table_content">
+                            <table>
+                                <tr>
+                                    <th rowspan="2" scope="colgroup">Componentes</th>
+                                    <th colspan="2" scope="colgroup">Requerimientos</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Mínimos</th>
+                                    <th scope="col">Recomendados</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sistema Operativo</th>
+                                    <td>Windows 7 64-Bit</td>
+                                    <td>Windows 10 64-Bit</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Procesador</th>
+                                    <td>Intel Core i3-4340 o AMD FX-6300</td>
+                                    <td>Intel Core i5-2500K o AMD Ryzen R5 1600X</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Gráficos</th>
+                                    <td>NVIDIA GeForce GTX 670 / GeForce GTX 1650 or Radeon HD 7950</td>
+                                    <td>NVIDIA GeForce GTX 970 / GTX 1660 or Radeon R9 390 / AMD RX 580</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">RAM</th>
+                                    <td>8 GB</td>
+                                    <td>12 GB</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Almacenamiento</th>
+                                    <td>175 GB</td>
+                                    <td>175 GB</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Drivers</th>
+                                    <td>DirectX 12 Compatible Graphics Card</td>
+                                    <td>DirectX 12 Compatible Graphics Card</td>
+                                </tr>
 
-                <table border=2;>
-                    <tr>
-                        <th rowspan="2" scope="colgroup">Componentes</th>
-                        <th colspan="2" scope="colgroup">Requerimientos</th>
-                    </tr>
-                    <tr>
-                        <th scope="col">Mínimos</th>
-                        <th scope="col">Recomendados</th>
-                    </tr>
-                    <tr>
-                        <th scope="row">Sistema Operativo</th>
-                        <td>Windows 7 64-Bit</td>
-                        <td>Windows 10 64-Bit</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Procesador</th>
-                        <td>Intel Core i3-4340 o AMD FX-6300</td>
-                        <td>Intel Core i5-2500K o AMD Ryzen R5 1600X</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Gráficos</th>
-                        <td>NVIDIA GeForce GTX 670 / GeForce GTX 1650 or Radeon HD 7950</td>
-                        <td>NVIDIA GeForce GTX 970 / GTX 1660 or Radeon R9 390 / AMD RX 580</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">RAM</th>
-                        <td>8 GB</td>
-                        <td>12 GB</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Almacenamiento</th>
-                        <td>175 GB</td>
-                        <td>175 GB</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Drivers</th>
-                        <td>DirectX 12 Compatible Graphics Card</td>
-                        <td>DirectX 12 Compatible Graphics Card</td>
-                    </tr>
+                            </table>
+                        </div>
+                    </article>
 
-                </table>
+                    <article>
+                        <h3>Star Wars Jedi: Fallen Order</h3>
 
-            </article>
+                        <img src="../images/star_wars_find.jpg" alt="Imgen Star Wars"/>
 
-            <article>
-                <h3>Star Wars Jedi: Fallen Order</h3>
+                        <p>
+                            La saga Star Wars regresa de forma periódica también al mundo de los videojuegos, 
+                            en esta ocasión con una nueva aventura de acción que nos sitúa entre los capítulos 
+                            3 y 4 de la saga cinematográfica. Manejaremos a Cal Kestin, un joven padawan que 
+                            irá evolucionando a lo largo de la historia y mejorando sus habilidades para poder 
+                            enfrentar el mal. Eso significa que regresan los sables láser, convirtiendo el 
+                            título de Respawn en el más digno juego del universo Star Wars en años.
+                        </p>
 
-                <img src="../images/star_wars_find.jpg" alt="Imgen Star Wars" width="450" height="300">
+                        <h4>Trailer</h4>
+                        
+                        <div class="iframe_content">
+                            <iframe src="https://www.youtube.com/embed/0GLbwkfhYZk" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
 
-                <p>
-                    La saga Star Wars regresa de forma periódica también al mundo de los videojuegos, 
-                    en esta ocasión con una nueva aventura de acción que nos sitúa entre los capítulos 
-                    3 y 4 de la saga cinematográfica. Manejaremos a Cal Kestin, un joven padawan que 
-                    irá evolucionando a lo largo de la historia y mejorando sus habilidades para poder 
-                    enfrentar el mal. Eso significa que regresan los sables láser, convirtiendo el 
-                    título de Respawn en el más digno juego del universo Star Wars en años.
-                </p>
+                        <h4>Requerimientos</h4>
 
-                <h4>Trailer</h4>
+                        <div class="table_content">
+                            <table>
+                                <tr>
+                                    <th rowspan="2" scope="colgroup">Componentes</th>
+                                    <th colspan="2" scope="colgroup">Requerimientos</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Mínimos</th>
+                                    <th scope="col">Recomendados</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sistema Operativo</th>
+                                    <td>Windows 7 64-Bit</td>
+                                    <td>Windows 10 64-Bit</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Procesador</th>
+                                    <td>(AMD): FX-6100 or Equivalent, (Intel): i3-3220 or Equivalent</td>
+                                    <td>(AMD): Ryzen 7 1700 or Equivalent, (Intel): i7-6700K or Equivalent</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Gráficos</th>
+                                    <td>(AMD): Radeon HD 7750 or Equivalent, (NVIDIA): GeForce GTX 650 or Equivalent</td>
+                                    <td>(AMD): RX Vega 56 or Equivalent, (NVIDIA): GTX 1070 or Equivalent</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">RAM</th>
+                                    <td>8 GB</td>
+                                    <td>16 GB</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Almacenamiento</th>
+                                    <td>55 GB</td>
+                                    <td>55 GB</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Drivers</th>
+                                    <td>DirectX 11 Compatible Graphics Card</td>
+                                    <td>DirectX 11 Compatible Graphics Card</td>
+                                </tr>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0GLbwkfhYZk" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
+                            </table>
+                        </div>
+                    </article>
+                
+                </section>
 
-                <h4>Requerimientos</h4>
+                <section>
+                    <h2>Hardware Recomendado</h2>
+                    <article>
+                        <h3>Nvidia GT 1030</h3>
 
-                <table border=2;>
-                    <tr>
-                        <th rowspan="2" scope="colgroup">Componentes</th>
-                        <th colspan="2" scope="colgroup">Requerimientos</th>
-                    </tr>
-                    <tr>
-                        <th scope="col">Mínimos</th>
-                        <th scope="col">Recomendados</th>
-                    </tr>
-                    <tr>
-                        <th scope="row">Sistema Operativo</th>
-                        <td>Windows 7 64-Bit</td>
-                        <td>Windows 10 64-Bit</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Procesador</th>
-                        <td>(AMD): FX-6100 or Equivalent, (Intel): i3-3220 or Equivalent</td>
-                        <td>(AMD): Ryzen 7 1700 or Equivalent, (Intel): i7-6700K or Equivalent</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Gráficos</th>
-                        <td>(AMD): Radeon HD 7750 or Equivalent, (NVIDIA): GeForce GTX 650 or Equivalent</td>
-                        <td>(AMD): RX Vega 56 or Equivalent, (NVIDIA): GTX 1070 or Equivalent</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">RAM</th>
-                        <td>8 GB</td>
-                        <td>16 GB</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Almacenamiento</th>
-                        <td>55 GB</td>
-                        <td>55 GB</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Drivers</th>
-                        <td>DirectX 11 Compatible Graphics Card</td>
-                        <td>DirectX 11 Compatible Graphics Card</td>
-                    </tr>
+                        <img src="../images/gt1030_hardware.jpg" alt="Imagen Gt 1030"/>
 
-                </table>
-
-            </article>
-        
-        </section>
-
-        <section>
-            <h2>Hardware Recomendado</h2>
-            <article>
-                <h3>Nvidia GT 1030</h3>
-
-                <img src="../images/gt1030_hardware.jpg" alt="Imagen Gt 1030" width="400" height="300">
-
-                <p>
-                    La tarjeta gráfica Nvidia GT 1030 utiliza la nueva arquitectura gráfica 
-                    Nvidia Pascal, concretamente se trata de la GP108 que se fabrica en 16 
-                    nm FinFET y una de las tarjetas más eficientes al tener un TDP de apenas 35W.
-                </p>
-                <p>
-                    Las dimensiones de la tarjeta gráfica son muy compactas con 174.91 x 
-                    68.9 x 35.91 mm y un peso de apenas 246 gramos. Todo ello en un formato 
-                    de Single Slot Low Profile que podremos instalar en cualquier gabinete 
-                    del mercado. Aunque este modelo concreto ocupa casi 1,5-2 slots. 
-                    Igualmente no debemos tener ningún tipo de problema de instalar en 
-                    cualquier caja del mercado.
-                </p>
-                <p>
-                    Estos 1.8 billones transistores se reparten dentro del chip en un total 
-                    de 6 unidades Streaming Multiprocessors, éstas a su vez contienen la gran 
-                    cantidad de 384 núcleos CUDA con la última arquitectura de Nvidia. También 
-                    encontramos nada menos que 24 unidades de texturizado (TMUs) y 16 unidades 
-                    de rastrerizado (ROPs).
-                </p>
-                <p>
-                    La Streaming Multiprocessors corre unas frecuencias en su GPU de 1252 MHz
-                    en modo base que asciende hasta 1.506 MHz bajo el modo Turbo Boost para
-                    ofrecer un rendimiento superior. Aunque depende del modelo nos encontraremos 
-                    mejores frecuencias, en nuestro caso al ser un disipador pasivo viene 
-                    con unas velocidades algo más contenida.
-                </p>
-
-                <aside>
-                    <h4>Video Recomendado</h4>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0CVc5whe_Mo" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                </aside>
-            </article>
-        </section>
-
+                        <p>
+                            La tarjeta gráfica Nvidia GT 1030 utiliza la nueva arquitectura gráfica 
+                            Nvidia Pascal, concretamente se trata de la GP108 que se fabrica en 16 
+                            nm FinFET y una de las tarjetas más eficientes al tener un TDP de apenas 35W.
+                        </p>
+                        <p>
+                            Las dimensiones de la tarjeta gráfica son muy compactas con 174.91 x 
+                            68.9 x 35.91 mm y un peso de apenas 246 gramos. Todo ello en un formato 
+                            de Single Slot Low Profile que podremos instalar en cualquier gabinete 
+                            del mercado. Aunque este modelo concreto ocupa casi 1,5-2 slots. 
+                            Igualmente no debemos tener ningún tipo de problema de instalar en 
+                            cualquier caja del mercado.
+                        </p>
+                        <p>
+                            Estos 1.8 billones transistores se reparten dentro del chip en un total 
+                            de 6 unidades Streaming Multiprocessors, éstas a su vez contienen la gran 
+                            cantidad de 384 núcleos CUDA con la última arquitectura de Nvidia. También 
+                            encontramos nada menos que 24 unidades de texturizado (TMUs) y 16 unidades 
+                            de rastrerizado (ROPs).
+                        </p>
+                        <p>
+                            La Streaming Multiprocessors corre unas frecuencias en su GPU de 1252 MHz
+                            en modo base que asciende hasta 1.506 MHz bajo el modo Turbo Boost para
+                            ofrecer un rendimiento superior. Aunque depende del modelo nos encontraremos 
+                            mejores frecuencias, en nuestro caso al ser un disipador pasivo viene 
+                            con unas velocidades algo más contenida.
+                        </p>
+                        <div class="iframe_content">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0CVc5whe_Mo" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        </div>
+                    </article>
+                </section>
+            </section>
+        </div>
         <footer>
 
             <aside class="footer_content">

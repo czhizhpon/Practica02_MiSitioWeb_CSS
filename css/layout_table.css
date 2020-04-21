@@ -1,0 +1,39 @@
+/*TABLAS*/
+
+.table_content{
+    width: 100%;
+    overflow-x:auto;
+    padding: 20px;
+    background-color: #333;
+    box-sizing: border-box;
+}
+
+table{
+    align-self: center;
+    width: 80%;
+    min-width: 300px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    
+}
+
+table, th, td{
+    border: 2px #aaa solid;
+    color: #fff;
+}
+
+table th, table td{
+    padding: 15px;
+}
+
+table th{
+    background-color: #91CFFC22;
+    /*background-color:  #ACD3F481;*/
+    /*background-color: #3DB3E630;*/
+}
+
+table td{
+    vertical-align: middle;
+    background-color: #999;
+    color: #000;
+}

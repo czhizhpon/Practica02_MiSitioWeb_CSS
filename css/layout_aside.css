@@ -1,0 +1,39 @@
+
+/*Columna - asides*/
+#c_aside{
+    width: 25%;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+#c_aside aside{
+    padding: 10px;
+    margin: 10px;
+    border: #3D736633 solid 2px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#c_aside aside h4{
+    padding: 10px 5px;
+    color: #000;
+    background-color: #BF8D5265;
+}
+
+#c_aside aside p{
+    text-align: justify;
+    margin: 10px 5px;
+}
+
+#c_aside aside a{
+    text-decoration-color: #3D7366;
+    color: #000;
+}
+
+#c_aside aside img{
+    width: 80%;
+    margin: 10px;
+}
+/* FIN Columna - asides*/

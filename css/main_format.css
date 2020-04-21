@@ -11,13 +11,14 @@
 
 body{
     font-family: 'f_spartan';
+    font-size: 18px;
 }
 
 #main_header{
     width: 100%;
     background-color: #3D7366;
     box-shadow: 0px 0px 4px #000;
-    position:fixed;
+    /*position:fixed;*/
     overflow: hidden;
     z-index: 1;
 }
@@ -97,8 +98,6 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-    font-size: 14px;
 }
 
 .footer_content{
@@ -122,7 +121,7 @@ footer{
     padding-top: 20px;
     text-align: left;
     list-style: none;
-    line-height: 300%;
+    line-height: 0.9cm;
 }
 
 .footer_content a{
@@ -173,8 +172,30 @@ footer{
 /* FIN FOOTER*/
 
 /*Espacio para comenzar con el contenido principal*/
-body .main_separator{
+.main_separator{
     clear: both;
-    padding-top: 15rem;
+    padding-top: 5rem;
     position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5em;
+    line-height: 0.8cm;
+}
+
+/*h1 -> para el titulo de la página*/
+body h1{
+    margin: 10px 5rem 10px;
+    color: #3D7366;
+}
+
+.main_1_col_separator{
+    clear: both;
+    padding-top: 5rem;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+    line-height: 0.8cm;
 }
