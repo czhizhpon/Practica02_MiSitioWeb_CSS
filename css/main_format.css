@@ -1,4 +1,8 @@
-
+/*
+    Practica 2 - CSS
+    Estudiante: Eduardo Zhizhpon
+    Archivo: main_format.css
+*/
 @font-face{
     font-family: f_spartan;
     src: url(font/Spartan/Spartan-VariableFont_wght.ttf);
@@ -17,22 +21,34 @@ body{
 #main_header{
     width: 100%;
     background-color: #3D7366;
-    box-shadow: 0px 0px 4px #000;
-    /*position:fixed;*/
-    overflow: hidden;
-    z-index: 1;
+    box-shadow: 0px 0px 6px #000;
 }
 
 /*div: #logo_container*/
-
 #logo_container{
     display: flex;
     justify-content: center;
-    box-shadow: 1px 1px 4px #62A693;
+    box-shadow: 0px 0px 4px #62A693;
 }
 
 #img_logo img{
     width: 80px;
+}
+
+.nav_icon{
+    text-decoration: none;
+}
+
+.nav_icon img{
+    width: 35px;
+    display: block;
+    margin: 22px auto 1px;
+}
+
+.nav_icon span{
+    color: #E3E9ED;
+    margin: 5px;
+    font-size: 12px;
 }
 
 #f_search{
@@ -44,8 +60,9 @@ body{
     box-sizing : border-box;
     padding: 10px 8px;
     width: 100%;
-}
 
+    font-family:inherit;
+}
 /*FIN div: #logo_container*/
 
 /*nav: #header_nav*/
@@ -65,22 +82,6 @@ body{
     border-radius: 7px;
 }
 
-.nav_icon{
-    text-decoration: none;
-}
-
-.nav_icon img{
-    width: 35px;
-    display: block;
-    margin: 22px auto 1px;
-}
-
-.nav_icon span{
-    color: #E3E9ED;
-    margin: 5px;
-    font-size: 12px;
-}
-
 #header_nav .nav_a:hover{
     transition: all 0.3s linear;
     background-color: #346157;
@@ -97,11 +98,11 @@ footer{
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .footer_content{
-    width: 30%;
+    width: 25%;
     text-align: center;
 
     margin: 10px;
@@ -114,6 +115,7 @@ footer{
 
     overflow:hidden;
     text-overflow: ellipsis;
+    border-radius: 10px;
 
 }
 
@@ -171,7 +173,8 @@ footer{
 
 /* FIN FOOTER*/
 
-/*Espacio para comenzar con el contenido principal*/
+/*Espacio para comenzar con el contenido principal
+    con dos o más columnas*/
 .main_separator{
     clear: both;
     padding-top: 5rem;
@@ -183,12 +186,8 @@ footer{
     line-height: 0.8cm;
 }
 
-/*h1 -> para el titulo de la página*/
-body h1{
-    margin: 10px 5rem 10px;
-    color: #3D7366;
-}
-
+/*Espacio para comenzar con el contenido principal
+    con una sola columna*/
 .main_1_col_separator{
     clear: both;
     padding-top: 5rem;
@@ -198,4 +197,10 @@ body h1{
     justify-content: center;
     padding-bottom: 5em;
     line-height: 0.8cm;
+}
+
+/*h1 -> para el titulo de la página*/
+body h1{
+    margin: 10px 5rem 10px;
+    color: #3D7366;
 }

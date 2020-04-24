@@ -1,5 +1,9 @@
-
-/*Columna - main*/
+/*
+    Practica 2 - CSS
+    Estudiante: Eduardo Zhizhpon
+    Archivo: layout_main_section.css
+*/
+/*Columna - c_main*/
 #c_main{
     width: 70%;
     margin: 0px 10px;
@@ -91,7 +95,5 @@
     text-decoration-color: #3D7366;
     color: #000;
 }
-
-
-/*FIN Columna 2 - main*/
+/*FIN Columna c_main*/
 

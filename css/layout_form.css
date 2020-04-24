@@ -1,0 +1,70 @@
+/*
+    Practica 2 - CSS
+    Estudiante: Eduardo Zhizhpon
+    Archivo: layout_form.css
+*/
+#form_register{
+    width: 100%;
+    justify-content: center;
+}
+
+#form_register label{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin: 5px;
+}
+
+#form_register input[type=text], input[type=email], input[type=password], [type=date]{
+    border: #62A69350 2px solid;
+    border-radius: 4px;
+    padding: 10px 5px;
+    outline: none; 
+    display: inline-block;
+    width: 60%;
+    margin: 5px;
+    font-family:inherit;
+}
+
+#form_register input[type=date]{
+    width: 150px;
+}
+
+input[type=submit]{
+    clear: both;
+    float: right;
+    font-size: 20px;
+    color: #eee;
+    padding: 10px;
+    border: solid 2px #62A69350;
+    background-color: #62A693;
+    outline: none; 
+    font-family:inherit;
+}
+
+#form_register > input:focus{
+    border: #62A693 2px solid;
+    background-color: #62A69310;
+    transition: ease-out all 0.3s;
+}
+
+#form_register > input[type=submit]:focus{
+    background-color: #346157 !important;
+}
+
+#form_register #ta_aboutme{
+    clear: both;
+    border: #62A69350 2px solid;
+    border-radius: 4px;
+    padding: 10px 5px;
+    outline: none; 
+    display: inline-block;
+    width: 60%;
+    margin: 5px;
+    font-family:inherit;
+}
+
+#form_register textarea {
+    resize: none;
+}
+

@@ -1,10 +1,12 @@
-/*TABLAS*/
-
+/*
+    Practica 2 - CSS
+    Estudiante: Eduardo Zhizhpon
+    Archivo: layout_table.css
+*/
 .table_content{
-    width: 100%;
-    overflow-x:auto;
+    overflow:auto;
     padding: 20px;
-    background-color: #333;
+    background-color: #eee;
     box-sizing: border-box;
 }
 
@@ -14,11 +16,10 @@ table{
     min-width: 300px;
     margin: 20px auto;
     border-collapse: collapse;
-    
 }
 
 table, th, td{
-    border: 2px #aaa solid;
+    border: 2px #ccc solid;
     color: #fff;
 }
 
@@ -27,13 +28,11 @@ table th, table td{
 }
 
 table th{
-    background-color: #91CFFC22;
-    /*background-color:  #ACD3F481;*/
-    /*background-color: #3DB3E630;*/
+    background-color: #67737D;
 }
 
 table td{
-    vertical-align: middle;
-    background-color: #999;
+    
+    background-color: #eee;
     color: #000;
 }

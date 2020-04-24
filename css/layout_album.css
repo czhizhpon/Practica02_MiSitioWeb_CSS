@@ -1,3 +1,8 @@
+/*
+    Practica 2 - CSS
+    Estudiante: Eduardo Zhizhpon
+    Archivo: layout_album.css
+*/
 .album_content{
     width: 100%;
     padding: 10px;
@@ -25,5 +30,5 @@
 
 .album_content ol li{
     color: #fff;
-    padding: 0px 5x 0px 30px;
+    padding: 0px 5px 0px 30px;
 }
