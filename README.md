@@ -107,7 +107,7 @@ Esta hoja de estilo se usó para las páginas que requieren una columna de naveg
 
 ![alt text](readme_resources/l_n_1.png)
 
-### layout_mani_section.css:
+### layout_main_section.css:
 
 Esta hoja de estilo está destinada para presentar el contenido principal, en los diseños de una, dos o tres columnas. 
 
@@ -200,6 +200,9 @@ Para la presentación del álbum se usó la misma lógica del video, con el agre
 
 ![alt text](readme_resources/e_5.png)
 
+### Diseño del formulario para crear una cuenta
+
+![alt text](readme_resources/e_6.png)
 
 ## Validaciones de archivos HTML
 
