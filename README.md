@@ -200,6 +200,10 @@ Para la presentación del álbum se usó la misma lógica del video, con el agre
 
 ![alt text](readme_resources/e_5.png)
 
+### Diseño del formulario para crear una cuenta
+
+![alt text](readme_resources/e_6.png)
+
 
 ## Validaciones de archivos HTML
 
