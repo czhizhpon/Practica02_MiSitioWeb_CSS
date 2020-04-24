@@ -28,6 +28,12 @@
     border-radius: 10px;
 }
 
+#c_main > img{
+    width: 150px;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
 #c_main section article > h3{
     padding: 10px 5px;
     margin: 10px;

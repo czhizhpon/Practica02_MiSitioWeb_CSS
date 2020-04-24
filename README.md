@@ -18,15 +18,14 @@ Para el desarrollo de esta práctica se optó por dividir los estilos en los sig
 - layout_nav.css: diseño para la columna de navegación de la página.
 - layout_main_section.css: contiene el diseño para el contenido principal de la página.
 - layout_aside.css: diseño para la columna destina a publicidad de la página.
-- layout_table.css: diseño para las tablas.
 - layout_form.css: diseño para formularios.
-- layout_iframe.css: diseño para el selector iframe.
-- layout_video.css: diseño para el selector de video.
-- layout_album.css: diseño para los álbumes de música que se presentan en el sitio web.
+- layout_media.css: diseño para recursos multimedia, como videos, audios y tablas.
 
 Al dividir el diseño se intenta lograr que cada sección del sitio pueda utilizar el estilo que necesite, para poder completar la presentación general al usuario y así lograr concordancia entre todas las páginas web.
 
+Para la creación del sitio se basó en esta gama de colores:
 
+![alt text](readme_resources/p_c.png)
 
 ## Explicación del contenido de los estilos CSS:
 
@@ -131,14 +130,6 @@ Esta hoja de estilo se utilizó para presentar una columna de publicidad en el s
 
 ![alt text](readme_resources/l_a_1.png)
 
-### layout_table.css:
-
-Esta hoja de estilo tiene solo una función estética para que sea utilizable en varias páginas.
-
-- Se proporcionó un ancho mínimo de 300px, con finalidad que el contenido pueda verse, por lo que se activó “overflow auto” para que genere una barra de desplazamiento y no perder de vista el contenido, de esta manera poder hacerlo responsivo.
-
-![alt text](readme_resources/l_t_1.png)
-
 ### layout_form.css:
 
 Esta hoja de estilo se usó para dar diseño a los formularios.
@@ -154,10 +145,20 @@ Esta hoja de estilo se usó para dar diseño a los formularios.
 - Para el botón se usó “clear both” para limpiar las configuraciones anteriores de posicionamiento, y un “float right” para que se ubique a lado derecho del formulario.
  
 ![alt text](readme_resources/l_f_3.png) 
- 
-### layout_iframe.css:
 
-Esta hoja de estilo se usa para proporcionar un diseño distintivo a los videos, ya que son recursos de otros sitios, se optó por encerrarlos en “blockquote” y proporcionar colores.
+### layout_media.css:
+
+Esta hoja de estilo tiene solo una función estética para que sea utilizable en varias páginas.
+
+Layout para tablas:
+
+- Se proporcionó un ancho mínimo de 300px, con finalidad que el contenido pueda verse, por lo que se activó “overflow auto” para que genere una barra de desplazamiento y no perder de vista el contenido, de esta manera poder hacerlo responsivo.
+
+![alt text](readme_resources/l_t_1.png)
+
+Layout para iframe:
+
+En esta hoja de estilo se usa para proporcionar un diseño distintivo a los videos, ya que son recursos de otros sitios, se optó por encerrarlos en “blockquote” y proporcionar colores.
 
 ![alt text](readme_resources/l_if_1.png)
 
@@ -169,13 +170,13 @@ Esta hoja de estilo se usa para proporcionar un diseño distintivo a los videos,
 
 ![alt text](readme_resources/l_if_3.png)
 
-### layout_video.css
+Layout para videos:
 
-Esta hoja de estilo tiene solo una funcionalidad estética para el contenedor del video, y se usa “display inline-block” para que se centre con respecto a su contenedor. Y Se limitó el ancho a 700px.
+En esta hoja de estilo tiene solo una funcionalidad estética para el contenedor del video, y se usa “display inline-block” para que se centre con respecto a su contenedor. Y Se limitó el ancho a 700px.
 
 ![alt text](readme_resources/l_v_1.png) 
 
-### layout_album.css
+Layout para el álbum:
 
 Para la presentación del álbum se usó la misma lógica del video, con el agregado de que se usar un “ol”, lista ordenada, que se configuro de la siguiente manera.
 
@@ -183,8 +184,6 @@ Para la presentación del álbum se usó la misma lógica del video, con el agre
 
 
 ## Evidencia del correcto diseño de las páginas HTML usando CSS
-
-
 
 
 ### Diseño del index.html
@@ -201,48 +200,6 @@ Para la presentación del álbum se usó la misma lógica del video, con el agre
 
 ![alt text](readme_resources/e_5.png)
 
-
-## Validaciones de archivos CSS
-
-### main_format.css
-
-![alt text](readme_resources/ec_1.png)
-
-### index_layout.css
-
-![alt text](readme_resources/ec_2.png)
-
-### layout_nav.css
-
-![alt text](readme_resources/ec_3.png)
-
-### layout_main_section.css
-
-![alt text](readme_resources/ec_4.png)
-
-### layout_aside.css
-
-![alt text](readme_resources/ec_5.png)
-
-### layout_table.css
-
-![alt text](readme_resources/ec_6.png)
-
-### layout_form.css
-
-![alt text](readme_resources/ec_7.png)
-
-### layout_iframe.css
-
-![alt text](readme_resources/ec_8.png)
-
-### layout_video.css
-
-![alt text](readme_resources/ec_9.png)
-
-### layout_album.css
-
-![alt text](readme_resources/ec_10.png)
 
 ## Validaciones de archivos HTML
 
@@ -282,6 +239,37 @@ La única advertencia hace referencia al uso del input date, ya que nos avisa qu
 ### events.html
 
 ![alt text](readme_resources/eh_9.png)
+
+## Validaciones de archivos CSS
+
+### main_format.css
+
+![alt text](readme_resources/ec_1.png)
+
+### index_layout.css
+
+![alt text](readme_resources/ec_2.png)
+
+### layout_nav.css
+
+![alt text](readme_resources/ec_3.png)
+
+### layout_main_section.css
+
+![alt text](readme_resources/ec_4.png)
+
+### layout_aside.css
+
+![alt text](readme_resources/ec_5.png)
+
+### layout_form.css
+
+![alt text](readme_resources/ec_7.png)
+
+
+### layout_media.css
+
+![alt text](readme_resources/ec_media.png)
 
 ## Resultados
 
